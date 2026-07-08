@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-border-color: #959595; -fx-background-color: #D7E2EE;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <AnchorPane layoutX="310.0" layoutY="14.0" prefHeight="368.0" prefWidth="257.0" style="-fx-border-color: #959595; -fx-border-radius: 8; -fx-background-color: #F8FAFC;">
+            <children>
+                <ImageView fitHeight="78.0" fitWidth="73.0" layoutX="85.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@logo.png" />
+                    </image>
+                </ImageView>
+                <TextField layoutX="13.0" layoutY="159.0" prefHeight="25.0" prefWidth="231.0" promptText="Ingrese el ususario" />
+                <PasswordField layoutX="13.0" layoutY="207.0" prefHeight="25.0" prefWidth="231.0" promptText="Ingrese la contraseña" />
+                <ComboBox layoutX="13.0" layoutY="248.0" prefHeight="25.0" prefWidth="231.0" promptText="- Selecionar -" style="-fx-cursor: hand;" />
+                <Button layoutX="99.0" layoutY="309.0" mnemonicParsing="false" style="-fx-cursor: hand;" text="Ingresar" />
+                <Label layoutX="82.0" layoutY="14.0" text="LOGIN">
+                    <font>
+                        <Font name="System Bold" size="25.0" />
+                    </font>
+                </Label>
+            </children>
+        </AnchorPane>
+        <ImageView fitHeight="259.0" fitWidth="246.0" layoutX="38.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@animales.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>
